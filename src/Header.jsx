@@ -13,7 +13,7 @@ const Header = () => {
           Reader
         </a>
       </div>
-      <div>{pdfName}</div>
+      <div className="w-2/4 text-center">{pdfName}</div>
       <a
         href="https://github.com/TasnimAnas/PDF-Reader"
         target="_blank"
