@@ -7,7 +7,7 @@ function App() {
     return state.dataSlice;
   });
   return (
-    <div className="h-lvh flex flex-col">
+    <div className="h-dvh flex flex-col">
       <Header />
       {selector.vectorStores && selector.llm ? (
         <>
